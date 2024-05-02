@@ -8,7 +8,8 @@
 * 18 pontos fájlkezelő python feladat (megoldva + feladat)
 
 ## ***Reni***
-*ReadMe.md
+>### README.md
+
 >###  HTML
 * forrás html fájl létrehozása (megoldott + hiányos)
 * forrás html fájl megoldásának feladat leírása
