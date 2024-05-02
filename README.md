@@ -1,4 +1,4 @@
-# **Alapvizsga minta: Magyarország központi Méhgyára 🍯**
+# **Alapvizsga minta:** *Mézgyár* 🍯
 ## ***Bálint*** 
 >###  HTML
 * css fájl létrehozása (eredeti, és hiányos)
