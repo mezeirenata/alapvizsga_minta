@@ -1,0 +1,37 @@
+https://hu.wikipedia.org/wiki/M%C3%A9z
+Méz tárolása és zárása:
+Amikor a méz eléri a megfelelő sűrűsséget, a méhek lezárják a viaszsejtet viasszal. Ezután a kész mézet tárolják, és később az emberek által gyűjtik össze és használják fel.
+
+<table class="border">
+    <tr> 
+        <td>Méztermelés:</td> 
+        <td>20 000-25 000 tonna</td> 
+    </tr>
+    <tr>
+        <td>Import:</td> 
+        <td>néhányszor 100 tonna</td> 
+    </tr>
+    <tr>
+        <td>Export:</td> 
+        <td>15 000-20 000</td> </tr>
+    <tr> 
+        <td>Kaptárak száma:</td> 
+        <td>900 000 darab</td> 
+    </tr>
+    <tr> 
+        <td>Kaptáronkénti termelés:</td> 
+        <td>20-25kg</td> 
+    </tr>
+    <tr> 
+        <td>Méhek száma:</td> 
+        <td>kb. 900 000 méhcsalád</td> 
+    </tr>
+    <tr> 
+        <td>Méhészek száma:</td> 
+        <td>kb. 15 000 fő</td> 
+    </tr>
+     <tr> 
+        <td class="text-center">Ugrás fentre</td> 
+        <td></td> 
+    </tr>
+</table>

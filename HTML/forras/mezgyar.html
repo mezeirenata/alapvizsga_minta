@@ -1,49 +1,11 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html>
 <head>
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="Kepek/favicon.ico">
     <title>Méztermelés</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        body{
-            font-family:cursive;
-            background-size:20%;
-            background-image:url(Kepek/Hatterkep.jpg) ;
-            background-repeat: repeat;
-            opacity:0.8;
-            color:rgb(56, 49, 43);
-        }
-        .logo{
-            width:50px;
-        }
-        .navbar{
-            background-color: rgb(233, 134, 68);
-        }
-        .kozepre{
-            text-align: center;
-        }
-        .margin-auto{
-            margin:auto;
-        }
-        ul li:nth-child(1){
-            list-style-type: none;
-            text-align: center;
-            font-weight: bold;
-            padding-bottom:15px;
-        }
-        li{
-            line-height: 175%;
-        }
-        th{
-            font-weight:bold;
-            font-size:125%;
-        }
-
-    </style>
 </head>
 <body data-bs-theme="dark">
     <section id="fent">
@@ -55,12 +17,8 @@
                             <a class="navbar-brand px-5 py-3 fs-4 fw-bold mx-auto" href="#fent">Méztermelés</a>
                             <div class="collapse ps-3  navbar-collapse " id="navbarNav">
                                 <ul class="navbar-nav ">
-                                    <li class="nav-item ">
-                                        <a class="nav-link " aria-current="page" href="#felhasznalas">Felhasználása</a>
-                                    </li>
                                     <li class="nav-item">
                                         <a class="nav-link " aria-current="page" href="#eloallitas">Előállítása</a>
-                                        <!-- összetételével -->
                                     </li>
                                     <li class="nav-item ">
                                         <a class="nav-link  " aria-current="page" href="#fajtak">Méz fajták</a>
@@ -70,7 +28,6 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link " aria-current="page" href="#magyarorszag">Magyarország méztermelése</a>
-                                        <!-- térképpel -->
                                     </li>
                                 </ul>
                             </div>
@@ -84,39 +41,32 @@
         </div>
     </section>
 
-    <section id="felhasznalas" class="pb-5">
+    <section class="pb-5">
         <div class="container">
             <h3>A méz felhasználása</h3>
             <hr class="border border-5 ">
             <div class="row">
-                <div class="col-md-2">
-                    <ul>  
-                        <li>Kitűnő ízesítő és édesítőszer</li>
-                        <li>Teákban</li>
-                        <li>Gyógyteákban</li>
-                        <li>Süteményekhez</li>
-                        <li>Cukorkák készítéséhez</li>
-                        <li>Kenyérre</li>
-                    </ul>
+                <div class="col-md-3">
+                        Kitűnő ízesítő és édesítőszer
+                        Teákban
+                        Gyógyteákban
+                        Süteményekhez
+                        Cukorkák készítéséhez
+                        Kenyérre
                 </div>
-                <div class="col-md-2">
-                    <ul>  
-                        <li>"Természetes" Gyógyszer</li>
-                        <li>Meghűléses betegségek esetén</li>
-                        <li>Gyulladásgátló</li>
-                        <li>Horzsolásokra, égési sebek kezelésére megfelelő</li>
-                    </ul>
+                <div class="col-md-3">
+                        "Természetes" Gyógyszer
+                        Meghűléses betegségek esetén
+                        Gyulladásgátló
+                        Horzsolásokra, égési sebek kezelésére megfelelő
                 </div>
-                <div class="col-md-2">
-                    <ul>  
-                        <li>Erjesztett <br> italok</li>
-                        <li>Mézbor</li>
-                        <li>Mézsör</li>
-                        <li>Tej</li>
-                    </ul>
+                <div class="col-md-3"> 
+                        Erjesztett italok
+                        Mézbor
+                        Mézsör
+                        Tej
                 </div>
-                <div class="col-md-5">
-                    <img src="Kepek/mezeskenyer.png" alt="mézes kenyér" title="mézes kenyér" class="img-fluid rounded p-3">
+                <div class="col-md-3">
                 </div>
             </div>
         </div>
@@ -124,16 +74,15 @@
 
     <section id="eloallitas" class="pb-5">
         <div class="container">
-            <h3>A méz előállítása</h3>
+            <p>A méz előállítása</p>
             <hr class="border border-5 ">
             <div class="row">
                 <div class="col-md-5">
-                    <img src="Kepek/eloallitas.jpg" alt="méz előállítása" title="méz előállítása" class="img-fluid p-3 rounded" width="115%;">
+                    <img src="Kepek/eloallitas.jpg" alt="méz előállítása" title="méz előállítása" class="img-fluid p-3 rounded">
                 </div>
                 <div class="col-md-6">
-                    <ol>  
                         <li> 
-                            <span class="fw-bold fs-5">Nektárgyűjtés:</span>
+                            <span class="">Nektárgyűjtés:</span>
                             A méhek a virágokat keresik fel és hasznosítják a virágokban található nektárt, amelyet a virágok mirigyei termelnek. A nektár édes ízű, és a méhek tárológyomrukban szállítják vissza a kaptárba.</li>
                         <li>
                             <span class="fw-bold fs-5">Tárolás:</span>
@@ -147,10 +96,6 @@
                             <span class="fw-bold fs-5">Érés és besűrítés:</span>
                             A viaszsejtekben lévő nektárt a méáhek ventillációval, vagyis szárítással sűrítik. A szárítási folyamat során a méh használja a szárnyait a levegő mozgatásához, hogy a nedvességet elpárologtassa, és a nektár sűrű, viszkózus mézzé alakuljon át.
                         </li> 
-                        <li><span class="fw-bold fs-5">Méz tárolása és zárása:</span>
-                        Amikor a méz eléri a megfelelő sűrűsséget, a méhek lezárják a viaszsejtet viasszal. Ezután a kész mézet tárolják, és később az emberek által gyűjtik össze és használják fel.
-                        </li>
-                    </ol>
                 </div>
             </div>
         </div>
@@ -158,7 +103,7 @@
 
     <section id="fajtak" class="pb-5">
         <div class="container">
-            <h3>Méz fajták</h3>
+            <p>Méz fajták</p>
             <hr class="border border-5">
             <div class="row pb-3" data-bs-theme="light">
                 <div class="col-md-4">
@@ -216,46 +161,16 @@
     </section>
     <section id="magyarorszag" class="pb-5">
         <div class="container">
-            <h3>Magyarország méztermelése</h3>
+            <p>Magyarország méztermelése</p>
             <hr class="border border-5">
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-8">
-                    <table class="border">
-                        <tr class="border"> 
-                            <th class="border p-3">Méztermelés:</th> 
-                            <td>20 000-25 000 tonna</td> 
-                        </tr>
-                        <tr class="border">
-                            <th class="border p-3">Import:</th> 
-                            <td>néhányszor 100 tonna</td> 
-                        </tr>
-                        <tr class="border">
-                            <th class="border p-3">Export:</th> 
-                            <td>15 000-20 000</td> </tr>
-                        <tr class="border"> 
-                            <th class="border p-3">Kaptárak száma:</th> 
-                            <td>900 000 darab</td> 
-                        </tr>
-                        <tr class="border"> 
-                            <th class="border p-3">Kaptáronkénti termelés:</th> 
-                            <td>20-25kg</td> 
-                        </tr>
-                        <tr class="border"> 
-                            <th class="border p-3">Méhek száma:</th> 
-                            <td>kb. 900 000 méhcsalád</td> 
-                        </tr>
-                        <tr class="border"> 
-                            <th class="border p-3">Méhészek száma:</th> 
-                            <td>kb. 15 000 fő</td> 
-                        </tr>
-                    </table>
                 </div>
                 <div class="col-md-2"></div>
             </div>
         </div>
     </section>
-
-    <script src="bootstrap.min.js"></script>
+    Forrás: wikipedia.hu
 </body>
 </html>
