@@ -1,0 +1,15 @@
+python 1. feladat
+A minta szerint dolgozzon !
+1.	Hozzon létre egy mez.py nevezetű fájlt a Python/forras/1.feladat/ mappában. Ezután kérjen be kettő szám típusú adatot, amelyek közül az egyik az összes méhek számát kéri be ezres értékben, a másikban pedig az összes kaptár száma megadható! 2p
+1p – fájl létrehozva helyesen, a megadott mappában
+1p—mindkettő változó létrehozva (minden elnevezés elfogadott)
+2.	Hozzon létre egy új változót, amely az összes méh számát határozza meg, majd írja ki a minta szerint! 1p
+1p—létrehozott egy változót, amely a méhek(kaptáronkénti) és a kaptárak számának szorzata, és azt ki is írta a mintának megfelelően
+3.	Egy méh átlagosan élete során 30 ml mézet termel. Rakja ezt az értéket egy változóba, majd számolja ki a változó segítségével, hogy várhatóan mennyi mézet fognak termelni összesen a méhek! írja ki a minta szerint az eredményt! 2p
+1p – létrehozott egy változót, aminek értéke 30
+1p— kiírta az új változó és a méheknek ezerrel megszorzott számának szorzatát 
+4.	Egy méh átlagosan 1 hét lefolyása alatt 4.67 ml mézet termel. Számolja ki a range generálás segítségével az elraktázotott méh számát a következő 5 hét minden lezárásakor, és írja ki minden hétnél a méz számát a minta szerint! 2p
+1p – létrehozott egy változót, amellyel minden héten megszámolja az összes mézet és azt ki is írta
+1p- létrehozott egy range-t amelyben 5ször hozzáadja a változóhoz a 4,67 értéket
+5.	Végül írja ki, hogy összesen mennyit termel egy méh 5 hét alatt átlagosan! 1p
+1p – ki írta az 5 hét méztermelését
