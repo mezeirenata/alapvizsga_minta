@@ -15,6 +15,6 @@ def main():
     mostsold = legtobb_eladott_mez()
     for k,v in mostsold.items():
         print(f'\t{k} {v}')
-    print(f'7. feladat A mézek kilógrammonkénti átlagára: {lb_to_kg(usd_to_huf(atlagar()))} Ft')
+    print(f'7. feladat A mézek kilógrammonkénti átlagára: {round(lb_to_kg(usd_to_huf(atlagar())), 2)} Ft {round(lb_to_kg(atlagar()), 2)} Usd')
     write_file('mez-ar-forint.csv')
 main()

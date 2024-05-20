@@ -66,3 +66,4 @@ def write_file(filename):
     for m in osszmez:
         file.write(f'{m.state};{round(usd_to_huf(m.priceperlb), 2)};{m.year}\n')
     print('8. feladat: Fájl létrehozva')
+    file.close()
